@@ -1,0 +1,175 @@
+.add {
+  position: absolute;
+  bottom: 3vh;
+  right: 3vw;
+  color: #3c096c;
+}
+.add > .MuiSvgIcon-root {
+  color: #3c096c;
+  padding: 10px;
+  font-size: 5rem !important;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+.AddPassword {
+  width: 80vh;
+  height: 60vh;
+  background: #10002b;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  z-index: 1000;
+}
+.headerBG {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 84.5%;
+  background: #3c096c;
+}
+
+.saveBG {
+  position: absolute;
+  left: 78.61%;
+  right: 5.06%;
+  top: 93.02%;
+  bottom: 1%;
+  background-color: #3c096c;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150%;
+  line-height: 37px;
+
+  color: #f2f4f3;
+}
+
+.textBox_password {
+  position: absolute;
+  height: 10%;
+  width: 90%;
+  left: 5.05%;
+  right: 4.96%;
+  top: 75.81%;
+  bottom: 13.95%;
+
+  background: #f2f4f3;
+  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.textBox_email {
+  position: absolute;
+  height: 10%;
+  width: 90%;
+  left: 5.05%;
+  right: 4.96%;
+  top: 51.78%;
+  bottom: 37.98%;
+
+  background: #f2f4f3;
+  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.textBox_website {
+  position: absolute;
+  height: 10%;
+  width: 90%;
+  left: 5.05%;
+  right: 4.96%;
+  top: 26.82%;
+  bottom: 62.95%;
+
+  background: #f2f4f3;
+  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.cancelBG {
+  position: absolute;
+  left: 55.34%;
+  right: 28.32%;
+  top: 93.02%;
+  bottom: 1%;
+  background: #808a9f;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150%;
+  /* line-height: 37px; */
+
+  color: #000000;
+}
+.password {
+  position: absolute;
+  left: 5.05%;
+  right: 67.33%;
+  top: 65.89%;
+  bottom: 28.06%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150%;
+  line-height: 39px;
+  /* identical to box height */
+  color: #ffffff;
+}
+.email {
+  position: absolute;
+  left: 5.05%;
+  right: 67.33%;
+  top: 40.93%;
+  bottom: 53.02%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150%;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.website {
+  position: absolute;
+  left: 5.05%;
+  right: 67.33%;
+  top: 18.14%;
+  bottom: 75.81%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150%;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.addPassword {
+  position: absolute;
+  left: 36.53%;
+  right: 31.79%;
+  top: 4.34%;
+  bottom: 88.99%;
+  padding-top: 3%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 180%;
+  text-align: center;
+  color: #ffff;
+}

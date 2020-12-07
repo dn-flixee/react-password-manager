@@ -1,0 +1,44 @@
+.header {
+  flex: 1;
+  height: 10vh;
+  width: 100%;
+  background: #5a189a;
+}
+.search_container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding-right: 15px;
+  border-radius: 2px;
+}
+.search_container > input {
+  border: none;
+  margin-left: 10px;
+}
+.search_container > .MuiSvgIcon-root {
+  color: gray;
+  padding: 10px;
+}
+
+.header_left {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 20px;
+  color: #10002b;
+}
+span {
+  font-size: 5vh;
+}
+.header_right {
+  justify-content: space-between;
+  max-width: 35vw;
+  display: flex;
+}
+.header_right > p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}

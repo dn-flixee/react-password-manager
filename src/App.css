@@ -1,0 +1,30 @@
+.app {
+  font-family: "Noto Sans JP", sans-serif;
+  display: grid;
+  place-items: center;
+  background-color: #240046;
+  height: 100vh;
+}
+.app__body {
+  /* display: flex; */
+  background-color: #10002b;
+  margin-top: 0px;
+  height: 95%;
+  width: 95%;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.5);
+}
+.add {
+  position: absolute;
+  bottom: 3vh;
+  right: 3vw;
+}
+.add > .MuiSvgIcon-root {
+  color: #22333b;
+  padding: 10px;
+  font-size: 55px !important;
+}
+.appSubBody {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

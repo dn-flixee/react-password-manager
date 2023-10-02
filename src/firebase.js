@@ -1,13 +1,14 @@
 import firebase from 'firebase'
 const firebaseConfig = {
-  apiKey: "AIzaSyDlmb_JNueg2PJYmajzT_XjPrq1fjA8g1o",
-  authDomain: "password-manager-v1.firebaseapp.com",
-  databaseURL: "https://password-manager-v1.firebaseio.com",
-  projectId: "password-manager-v1",
-  storageBucket: "password-manager-v1.appspot.com",
-  messagingSenderId: "643568378022",
-  appId: "1:643568378022:web:214a3cae823ebde4091467",
-  measurementId: "G-1748YZ9BF5"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID,
+  databaseURL: process.env.REACT_APP_DATABASE_URL,
+
 };
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
